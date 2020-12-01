@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../marca/node_modules/react';
 
 export class Home extends Component {
   static displayName = Home.name;

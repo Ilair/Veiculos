@@ -1,7 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import './marca/node_modules/bootstrap/dist/css/bootstrap.css';
+import React from './marca/node_modules/react';
+import ReactDOM from './marca/node_modules/react-dom';
+import { BrowserRouter } from './marca/node_modules/react-router-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 

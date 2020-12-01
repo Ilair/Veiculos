@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../marca/node_modules/react';
 import { Container } from 'reactstrap';
 import { NavMenu } from './NavMenu';
 

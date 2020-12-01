@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from '../marca/node_modules/react';
 import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Link } from '../marca/node_modules/react-router-dom';
 import './NavMenu.css';
 
 export class NavMenu extends Component {
@@ -34,10 +34,13 @@ export class NavMenu extends Component {
                   <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+                  <NavLink tag={Link} className="text-dark" to="/marca">Marca</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
+                  <NavLink tag={Link} className="text-dark" to="/modelo">Modelo</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} className="text-dark" to="/anuncio">Anúncio</NavLink>
                 </NavItem>
               </ul>
             </Collapse>
